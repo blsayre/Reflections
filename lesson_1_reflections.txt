@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Using diff allowed me to focus directly on the lines that had changed between
+    the versions.  That made it much easier to identify which of those lines had
+    an error.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Often I find that after trying an idea for a program that it did not work the 
+    way I expected, so it would be nice to be able to see all of the changed that
+    I made along the way.  Also, it may help to see the progression of ideas and 
+    my programing style.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros would be making a commit when you make a set of changes and 
+    you will have a better idea of when you saved a version.  The primary con is
+    that you have to remember to make the version.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is more oriented to programming where it is common to have multiple files 
+    that are interacting, so saving all as a version is ideal.  Google Docs would 
+    generally be only associated with one file that was undergoing changes.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The git log commands allows you to see the previous versions and messages about
+    how that version has changed.  Also, with the --stat flag, you can see the extent
+    of the changes.  The git diff let you identify the actual changes that were made
+    to the new version by comparing it to another version.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The version control means that if I try something new and it fails then I can
+    easily go back and restart.  Also, it will help if an unexpected error occurs 
+    later on with an unanticipated problem.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to manage my versions of the artificial neural network scripts
+    and libraries that I am working on developing.
