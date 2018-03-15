@@ -8,24 +8,43 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    There could be many reasons and most will depend on the nature the repository and 
+    the level of collaboration.  If you were updating a software package that was being 
+    used by others, you may wish to wait to update your remote repository.  Likewise, 
+    if you have a number of collaborators working on the project you may need to update 
+    either less often or more often than the automatic method to manage your working 
+    files.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are clone of someone else's repository on GitHub which maintains a link to 
+    the parent repository, but does not change it.  A clone is a copy of a repository 
+    either from GitHub or your local computer.  Branches are subunits of a repository 
+    that allow you to your files while still maintaining a primary working file set.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allows for conflict resolution if there are two changes the document.  Similar to 
+    how merge works with conflict resolution between to branches in the local repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaboration without Git or GitHub is usually by email or cloud document exchanges. 
+    This has the advantage of changes can be incorporated in to a common document and 
+    merges would be handled manually.  However, this method often makes it difficult to 
+    be sure you have the latest version and someone has to manually merge changes.  Git 
+    and GitHub can make it much easier to determine what version is the current one and 
+    can make many merge decisions automatically.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a branch can allow for review by collaborators before incorporation 
+    into the master branch.  However, it can be quite confusing on pulling, pushing and 
+    merging with the branches, as I found out.  I merged my local branch the wrong direction 
+    which made the pull-request disappear, but because I changed the master directly.  That 
+    would not have been a good result if I was working with collaborators as they would not 
+    have been able to review the changes I had made.
